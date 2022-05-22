@@ -1,5 +1,6 @@
 function thisis() {
-	alert('Hellow');
+	let inp = document.getElementById('addNote');
+	inp.innerHTML += '<input type="text" class="inputNote"><br>';
 }
 function saveNote() {
 	let addNote = document.getElementById('addNote');
