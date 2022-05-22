@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Catamaran;
+	background-color: #ecebf0;
+}
+.header {
+	font-size: 26px;
+	height: 96px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6e397;
+}
+.content {
+	height: 88vh;
+	width: auto;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.content > .addbutton {
+	height: 60px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	float: right;
+	padding: 20px;
+}
+.content > button:hover {
+	background-color: #f2e7c7;
+}
+.Note {
+	width: 80%;
+	/* height: 30px; */
+}
+
+/* #f2e7c7 */
